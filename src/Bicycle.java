@@ -1,9 +1,7 @@
-package Bicycles;
-
 /**
  * Created by anil on 13.07.2014.
  */
-public class Bicycle {
+class Bicycle {
 
     int cadance = 0;
     int gear = 1;
@@ -21,7 +19,7 @@ public class Bicycle {
         speed = speed + increment;
     }
 
-    void speedBrake (int decrement){
+    void applyBrake (int decrement){
         speed = speed - decrement;
     }
 
